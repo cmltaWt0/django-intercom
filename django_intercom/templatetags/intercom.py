@@ -120,7 +120,8 @@ def intercom_tag(context):
                              "css_selector": INTERCOM_INBOX_CSS_SELECTOR,
                              "custom_data": custom_data,
                              "company_data": company_data,
-                             "user_hash": user_hash})
+                             "user_hash": user_hash,
+                             "anonymous": False})
 
     else:
         # unauthenticated
